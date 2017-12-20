@@ -31,11 +31,12 @@ import DatetimePicker from '../packages/datetime-picker';
 import IndexList from '../packages/index-list';
 import IndexSection from '../packages/index-section';
 import PaletteButton from '../packages/palette-button';
+import Textarea from '../packages/textarea';
 import '../src/assets/font/iconfont.css';
 import '../src/style/wec-mint-ui.css';
 import merge from './utils/merge';
 
-const version = '1.0.0';
+const version = '1.0.1';
 const install = function(Vue, config = {}) {
   if (install.installed) return;
 
@@ -67,6 +68,7 @@ const install = function(Vue, config = {}) {
   Vue.component(IndexList.name, IndexList);
   Vue.component(IndexSection.name, IndexSection);
   Vue.component(PaletteButton.name, PaletteButton);
+  Vue.component(Textarea.name, Textarea);
   Vue.use(InfiniteScroll);
   Vue.use(Lazyload, merge({
     loading: require('./assets/loading-spin.svg'),
@@ -118,5 +120,6 @@ module.exports = {
   DatetimePicker,
   IndexList,
   IndexSection,
-  PaletteButton
+  PaletteButton,
+  Textarea
 };

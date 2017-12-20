@@ -163,5 +163,13 @@
         "icon": "badge"
       }
     ]
+  },
+  {
+    "title": "新增组件",
+    "list": [{
+      "path": "/textarea",
+      "name": "Textarea",
+      "icon": "field"
+    }]
   }
 ]

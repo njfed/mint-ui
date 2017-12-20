@@ -7,7 +7,17 @@
   background-origin: padding-box !important;
 }
 
+/* Tab 组件底部 border 位置调整 */
 .mint-navbar .mint-tab-item.is-selected {
   border-bottom-width: 2px !important;
   margin-bottom: 0px !important;
+}
+
+/* Field 组件中 文字对齐方式修改 */
+.mint-field.is-textarea .mint-cell-wrapper {
+  align-items: flex-start;
+}
+
+.mint-field.is-textarea .mint-cell-wrapper .mint-cell-title {
+  padding: 12px 0;
 }

@@ -86,7 +86,7 @@ export default {
 
         &::before {
           size: 50px 30px;
-          background-color: $switch-background-color;
+          background-color: $background-color;
         }
       }
 
@@ -95,8 +95,8 @@ export default {
 
         &:checked {
           + .mint-switch-core {
-            border-color: $color-blue;
-            background-color: $color-blue;
+            border-color: $switch-checked-background-color;
+            background-color: $switch-checked-background-color;
 
             &::before {
               transform: scale(0);

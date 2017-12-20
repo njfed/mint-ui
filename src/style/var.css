@@ -80,7 +80,7 @@ $progress-background-color: $background-color;
 $range-border-color: $border-color;
 
 /* Switch component */
-$switch-background-color: $primary-color;
+$switch-checked-background-color: $success-color;
 
 /* Common shadow and background colors*/
 $default-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);

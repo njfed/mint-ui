@@ -1,0 +1,12 @@
+{
+  "name": "mint-textarea",
+  "description": "",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "author": "qintixiang",
+  "homepage": "https://github.com/njfed/mint-ui",
+  "license": "MIT",
+  "repository": "https://github.com/njfed/mint-ui/tree/wec-mint-ui/components/mint-textarea",
+  "dependencies": {
+  }
+}
