@@ -10,6 +10,7 @@ $background-color: #f8f8f9;
 $border-color: #dddee1;
 $title-color: #1c2438;
 $value-color: #495060;
+$sub-color: #80848f;
 $split-line-color: $color-grey;
 $primary-color: $color-blue;
 
@@ -21,9 +22,9 @@ $header-height: 40px;
 
 /* Button Component */
 $button-default-color: $value-color;
-$button-default-background-color: $background-color;
+$button-default-background-color: $color-white;
 $button-default-plain-color: $value-color;
-$button-default-box-shadow: 0 0 1px #f8f8f9;
+$button-default-box-shadow: none;
 $button-primary-color: $color-white;
 $button-primary-background-color: $primary-color;
 $button-danger-color: $color-white;

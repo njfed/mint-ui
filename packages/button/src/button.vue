@@ -114,12 +114,12 @@ export default {
 
       @modifier default {
         color: $button-default-color;
-        background-color: $button-default-background-color;
+        background-color: $color-white;
         box-shadow: $button-default-box-shadow;
 
         @when plain {
-          border: 1px solid $button-default-plain-color;
-          background-color: transparent;
+          border: 1px solid $color-white;
+          background-color: $color-white;
           box-shadow: none;
           color: $button-default-plain-color;
         }
@@ -131,7 +131,7 @@ export default {
 
         @when plain {
           border: 1px solid $button-primary-background-color;
-          background-color: transparent;
+          background-color: $color-white;
           color: $button-primary-background-color;
         }
       }
@@ -142,7 +142,7 @@ export default {
 
         @when plain {
           border: 1px solid $button-danger-background-color;
-          background-color: transparent;
+          background-color: $color-white;
           color: $button-danger-background-color;
         }
       }
@@ -165,7 +165,9 @@ export default {
       }
 
       @when disabled {
-        opacity: .6;
+        /*opacity: .6;*/
+        color: $color-white;
+        background-color: $disabled-color;
       }
     }
   }
