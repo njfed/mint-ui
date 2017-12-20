@@ -1,0 +1,8 @@
+/**
+ * 主要用来覆盖默认样式
+ */
+
+/* 使得 cell 分隔线占 100%，无默认的 10px 缩进 */
+.mint-cell-wrapper {
+  background-origin: padding-box !important;
+}

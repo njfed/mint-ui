@@ -31,7 +31,7 @@
       }
 
       @descendent listitem {
-        border-bottom: solid 1px $actionsheet-background-color;
+        border-bottom: solid 1px $actionsheet-border-color;
       }
 
       @descendent listitem, button {

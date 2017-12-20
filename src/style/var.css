@@ -1,6 +1,6 @@
 $color-white: #fff;
 $color-black: #000;
-$color-grey: #dddee1;
+$color-grey: #e9eaec;
 $color-blue: #2d8cf0;
 $success-color: #19be6b;
 $error-color: #ed3f14;
@@ -10,6 +10,7 @@ $background-color: #f8f8f9;
 $border-color: #dddee1;
 $title-color: #1c2438;
 $value-color: #495060;
+$split-line-color: $color-grey;
 $primary-color: $color-blue;
 
 /* Cell Component */
@@ -49,6 +50,7 @@ $radio-border-color: $border-color;
 
 /* ActionSheet Component */
 $actionsheet-background-color: $background-color;
+$actionsheet-border-color: $split-line-color;
 $actionsheet-item-color: $value-color;
 $actionsheet-item-active-background-color: $color-white;
 
@@ -59,7 +61,7 @@ $picker-border-color: $border-color;
 $picker-slot-color: $value-color;
 
 /* IndexList component */
-$indexlist-border-color: $border-color;
+$indexlist-border-color: $split-line-color;
 
 /* IndexSection component */
 $indexsection-background-color: $background-color;

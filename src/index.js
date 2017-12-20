@@ -32,9 +32,10 @@ import IndexList from '../packages/index-list';
 import IndexSection from '../packages/index-section';
 import PaletteButton from '../packages/palette-button';
 import '../src/assets/font/iconfont.css';
+import '../src/style/wec-mint-ui.css';
 import merge from './utils/merge';
 
-const version = '2.2.13';
+const version = '1.0.0';
 const install = function(Vue, config = {}) {
   if (install.installed) return;
 

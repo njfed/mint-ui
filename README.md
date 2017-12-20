@@ -1,4 +1,8 @@
-# Mint UI
+# Mint UI 定制版
+
+- 风格稍做调整
+
+# Mint UI 官方说明
 
 [![Build Status](https://travis-ci.org/ElemeFE/mint-ui.svg?branch=master)](https://travis-ci.org/ElemeFE/mint-ui)
 [![npm](https://img.shields.io/npm/v/mint-ui.svg?maxAge=3600)](https://www.npmjs.com/package/mint-ui)

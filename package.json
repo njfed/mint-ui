@@ -1,12 +1,13 @@
 {
-  "name": "mint-ui",
-  "version": "2.2.13",
+  "name": "wec-mint-ui",
+  "version": "1.0.0",
   "description": "Mobile UI elements for vue.js",
   "keywords": [
     "component",
     "vue",
     "mobile",
-    "eleme"
+    "eleme",
+    "wecloud"
   ],
   "main": "lib/mint-ui.common.js",
   "style": "lib/style.css",
@@ -28,13 +29,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElemeFE/mint-ui.git"
+    "url": "git+https://github.com/njfed/mint-ui"
   },
-  "homepage": "https://github.com/ElemeFE/mint-ui#readme",
+  "homepage": "https://github.com/njfed/mint-ui#readme",
   "bugs": {
-    "url": "https://github.com/ElemeFE/mint-ui/issues"
+    "url": "https://github.com/njfed/mint-ui/issues"
   },
-  "author": "elemefe",
+  "author": "qintianxiang",
   "license": "MIT",
   "dependencies": {
     "array-find-index": "^1.0.2",

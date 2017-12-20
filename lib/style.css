@@ -6,12 +6,22 @@
 /* Navbar Component */
 /* Checklist Component */
 /* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
 /* z-index */
 .mint-header {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #26a2ff;
+    background-color: #2d8cf0;
     box-sizing: border-box;
     color: #fff;
     display: -webkit-box;
@@ -76,6 +86,16 @@
 /* Navbar Component */
 /* Checklist Component */
 /* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
 /* z-index */
 .mint-button {
     -webkit-appearance: none;
@@ -114,33 +134,33 @@
     display: inline-block
 }
 .mint-button--default {
-    color: #656b79;
-    background-color: #f6f8fa;
-    box-shadow: 0 0 1px #b8bbbf
+    color: #495060;
+    background-color: #f8f8f9;
+    box-shadow: 0 0 1px #f8f8f9
 }
 .mint-button--default.is-plain {
-    border: 1px solid #5a5a5a;
+    border: 1px solid #495060;
     background-color: transparent;
     box-shadow: none;
-    color: #5a5a5a
+    color: #495060
 }
 .mint-button--primary {
     color: #fff;
-    background-color: #26a2ff
+    background-color: #2d8cf0
 }
 .mint-button--primary.is-plain {
-    border: 1px solid #26a2ff;
+    border: 1px solid #2d8cf0;
     background-color: transparent;
-    color: #26a2ff
+    color: #2d8cf0
 }
 .mint-button--danger {
     color: #fff;
-    background-color: #ef4f4f
+    background-color: #ed3f14
 }
 .mint-button--danger.is-plain {
-    border: 1px solid #ef4f4f;
+    border: 1px solid #ed3f14;
     background-color: transparent;
-    color: #ef4f4f
+    color: #ed3f14
 }
 .mint-button--large {
     display: block;
@@ -164,6 +184,16 @@
 /* Navbar Component */
 /* Checklist Component */
 /* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
 /* z-index */
 .mint-cell {
     background-color:#fff;
@@ -182,15 +212,15 @@
     background-origin:border-box;
 }
 .mint-cell:last-child {
-    background-image:-webkit-linear-gradient(bottom, #d9d9d9, #d9d9d9 50%, transparent 50%);
-    background-image:linear-gradient(0deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
+    background-image:-webkit-linear-gradient(bottom, #e9eaec, #e9eaec 50%, transparent 50%);
+    background-image:linear-gradient(0deg, #e9eaec, #e9eaec 50%, transparent 50%);
     background-size:100% 1px;
     background-repeat:no-repeat;
     background-position:bottom;
 }
 .mint-cell-wrapper {
-    background-image:-webkit-linear-gradient(top, #d9d9d9, #d9d9d9 50%, transparent 50%);
-    background-image:linear-gradient(180deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
+    background-image:-webkit-linear-gradient(top, #e9eaec, #e9eaec 50%, transparent 50%);
+    background-image:linear-gradient(180deg, #e9eaec, #e9eaec 50%, transparent 50%);
     background-size: 120% 1px;
     background-repeat: no-repeat;
     background-position: top left;
@@ -227,7 +257,7 @@
     vertical-align: middle;
 }
 .mint-cell-label {
-    color: #888;
+    color: #495060;
     display: block;
     font-size: 12px;
     margin-top: 6px;
@@ -238,7 +268,7 @@
             flex: 1;
 }
 .mint-cell-value {
-    color: #888;
+    color: #495060;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -265,7 +295,7 @@
             transform: translate3d(100%, 0, 0);
 }
 .mint-cell-allow-right::after {
-    border: solid 2px #c8c8cd;
+    border: solid 2px #dddee1;
     border-bottom-width: 0;
     border-left-width: 0;
     content: " ";
@@ -285,6 +315,16 @@
 /* Navbar Component */
 /* Checklist Component */
 /* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
 /* z-index */
 .mint-cell-swipe .mint-cell-wrapper {
     position: relative;
@@ -312,6 +352,16 @@
 /* Navbar Component */
 /* Checklist Component */
 /* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
 /* z-index */
 .mint-field {
     display: -webkit-box;
@@ -375,13 +425,13 @@
     margin-left: 0;
 }
 .mint-field-state.is-success {
-    color: #4caf50;
+    color: #19be6b;
 }
 .mint-field-state.is-warning {
-    color: #ffc107;
+    color: #ff9900;
 }
 .mint-field-state.is-error {
-    color: #f44336;
+    color: #ed3f14;
 }
 .mint-field-other {
     top: 0;
@@ -396,6 +446,16 @@
 /* Navbar Component */
 /* Checklist Component */
 /* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
 /* z-index */
 .mint-badge {
     color: #fff;
@@ -418,16 +478,16 @@
     padding: 2px 8px
 }
 .mint-badge.is-warning {
-    background-color: #ffc107
+    background-color: #ff9900
 }
 .mint-badge.is-error {
-    background-color: #f44336
+    background-color: #ed3f14
 }
 .mint-badge.is-primary {
-    background-color: #26a2ff
+    background-color: #2d8cf0
 }
 .mint-badge.is-success {
-    background-color: #4caf50
+    background-color: #19be6b
 }
 /* Cell Component */
 /* Header Component */
@@ -437,6 +497,16 @@
 /* Navbar Component */
 /* Checklist Component */
 /* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
 /* z-index */
 .mint-switch {
     display: -webkit-box;
@@ -462,10 +532,10 @@
     position: relative;
     width: 52px;
     height: 32px;
-    border: 1px solid #d9d9d9;
+    border: 1px solid #e9eaec;
     border-radius: 16px;
     box-sizing: border-box;
-    background: #d9d9d9;
+    background: #e9eaec;
 }
 .mint-switch-core::after, .mint-switch-core::before {
     content: " ";
@@ -487,14 +557,14 @@
 .mint-switch-core::before {
     width: 50px;
     height: 30px;
-    background-color: #fdfdfd;
+    background-color: #2d8cf0;
 }
 .mint-switch-input {
     display: none;
 }
 .mint-switch-input:checked + .mint-switch-core {
-    border-color: #26a2ff;
-    background-color: #26a2ff;
+    border-color: #2d8cf0;
+    background-color: #2d8cf0;
 }
 .mint-switch-input:checked + .mint-switch-core::before {
     -webkit-transform: scale(0);
@@ -739,6 +809,16 @@ display: inline-block;
 /* Navbar Component */
 /* Checklist Component */
 /* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
 /* z-index */
 .mint-tab-item {
     display: block;
@@ -763,7 +843,7 @@ display: inline-block;
 }
 .mint-tab-item-label {
     color: inherit;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1
 }
 
@@ -796,6 +876,16 @@ display: inline-block;
 /* Navbar Component */
 /* Checklist Component */
 /* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
 /* z-index */
 .mint-navbar {
     background-color: #fff;
@@ -812,8 +902,8 @@ display: inline-block;
     border-right: 0;
 }
 .mint-navbar .mint-tab-item.is-selected {
-    border-bottom: 3px solid #26a2ff;
-    color: #26a2ff;
+    border-bottom: 3px solid #2d8cf0;
+    color: #2d8cf0;
     margin-bottom: -3px;
 }
 .mint-navbar.is-fixed {
@@ -831,15 +921,25 @@ display: inline-block;
 /* Navbar Component */
 /* Checklist Component */
 /* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
 /* z-index */
 .mint-tabbar {
-    background-image: -webkit-linear-gradient(top, #d9d9d9, #d9d9d9 50%, transparent 50%);
-    background-image: linear-gradient(180deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
+    background-image: -webkit-linear-gradient(top, #e9eaec, #e9eaec 50%, transparent 50%);
+    background-image: linear-gradient(180deg, #e9eaec, #e9eaec 50%, transparent 50%);
     background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: top left;
     position: relative;
-    background-color: #fafafa;
+    background-color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -850,8 +950,8 @@ display: inline-block;
     text-align: center;
 }
 .mint-tabbar > .mint-tab-item.is-selected {
-    background-color: #eaeaea;
-    color: #26a2ff;
+    background-color: transparent;
+    color: #2d8cf0;
 }
 .mint-tabbar.is-fixed {
     right: 0;
@@ -868,6 +968,16 @@ display: inline-block;
 /* Navbar Component */
 /* Checklist Component */
 /* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
 /* z-index */
 .mint-search {
     height: 100%;
@@ -879,7 +989,7 @@ display: inline-block;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #d9d9d9;
+    background-color: #e9eaec;
     box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -904,7 +1014,7 @@ display: inline-block;
 }
 .mint-searchbar-inner .mintui-search {
     font-size: 12px;
-    color: #d9d9d9;
+    color: #e9eaec;
 }
 .mint-searchbar-core {
     -webkit-appearance: none;
@@ -917,7 +1027,7 @@ display: inline-block;
     outline: 0;
 }
 .mint-searchbar-cancel {
-    color: #26a2ff;
+    color: #2d8cf0;
     margin-left: 10px;
     text-decoration: none;
 }
@@ -938,20 +1048,30 @@ display: inline-block;
 /* Navbar Component */
 /* Checklist Component */
 /* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
 /* z-index */
 .mint-checklist .mint-cell {
     padding: 0;
 }
 .mint-checklist.is-limit .mint-checkbox-core:not(:checked) {
-    background-color: #d9d9d9;
-    border-color: #d9d9d9;
+    background-color: #e9eaec;
+    border-color: #e9eaec;
 }
 .mint-checklist-label {
     display: block;
     padding: 0 10px;
 }
 .mint-checklist-title {
-    color: #888;
+    color: #495060;
     display: block;
     font-size: 12px;
     margin: 8px;
@@ -968,8 +1088,8 @@ display: inline-block;
     display: none;
 }
 .mint-checkbox-input:checked + .mint-checkbox-core {
-    background-color: #26a2ff;
-    border-color: #26a2ff;
+    background-color: #2d8cf0;
+    border-color: #2d8cf0;
 }
 .mint-checkbox-input:checked + .mint-checkbox-core::after {
     border-color: #fff;
@@ -977,14 +1097,14 @@ display: inline-block;
             transform: rotate(45deg) scale(1);
 }
 .mint-checkbox-input[disabled] + .mint-checkbox-core {
-    background-color: #d9d9d9;
-    border-color: #ccc;
+    background-color: #e9eaec;
+    border-color: #dddee1;
 }
 .mint-checkbox-core {
     display: inline-block;
     background-color: #fff;
     border-radius: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #dddee1;
     position: relative;
     width: 20px;
     height: 20px;
@@ -1015,6 +1135,16 @@ display: inline-block;
 /* Navbar Component */
 /* Checklist Component */
 /* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
 /* z-index */
 .mint-radiolist .mint-cell {
     padding: 0;
@@ -1027,7 +1157,7 @@ display: inline-block;
     font-size: 12px;
     margin: 8px;
     display: block;
-    color: #888;
+    color: #495060;
 }
 .mint-radio {}
 .mint-radio.is-right {
@@ -1041,8 +1171,8 @@ display: inline-block;
     display: none;
 }
 .mint-radio-input:checked + .mint-radio-core {
-    background-color: #26a2ff;
-    border-color: #26a2ff;
+    background-color: #2d8cf0;
+    border-color: #2d8cf0;
 }
 .mint-radio-input:checked + .mint-radio-core::after {
     background-color: #fff;
@@ -1050,15 +1180,15 @@ display: inline-block;
             transform: scale(1);
 }
 .mint-radio-input[disabled] + .mint-radio-core {
-    background-color: #d9d9d9;
-    border-color: #ccc;
+    background-color: #e9eaec;
+    border-color: #dddee1;
 }
 .mint-radio-core {
     box-sizing: border-box;
     display: inline-block;
     background-color: #fff;
     border-radius: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #dddee1;
     position: relative;
     width: 20px;
     height: 20px;
@@ -1107,10 +1237,28 @@ display: inline-block;
 .mint-loadmore-text {
     vertical-align: middle
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
+/* z-index */
 .mint-actionsheet {
   position: fixed;
-  background: #e0e0e0;
+  background: #f8f8f9;
   width: 100%;
   text-align: center;
   bottom: 0;
@@ -1130,7 +1278,7 @@ display: inline-block;
   margin: 0;
 }
 .mint-actionsheet-listitem {
-  border-bottom: solid 1px #e0e0e0;
+  border-bottom: solid 1px #e9eaec;
 }
 .mint-actionsheet-listitem, .mint-actionsheet-button {
   display: block;
@@ -1138,11 +1286,11 @@ display: inline-block;
   height: 45px;
   line-height: 45px;
   font-size: 18px;
-  color: #333;
+  color: #495060;
   background-color: #fff;
 }
 .mint-actionsheet-listitem:active, .mint-actionsheet-button:active {
-  background-color: #f0f0f0;
+  background-color: #fff;
 }
 .actionsheet-float-enter, .actionsheet-float-leave-active {
   -webkit-transform: translate3d(-50%, 100%, 0);
@@ -1202,7 +1350,7 @@ display: inline-block;
 
 .mint-popup {
   position: fixed;
-  background: #fff;
+  background: white;
   top: 50%;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
@@ -1299,15 +1447,33 @@ display: inline-block;
     height: 8px;
     display: inline-block;
     border-radius: 100%;
-    background: #000;
+    background: $color-black;
     opacity: 0.2;
     margin: 0 3px;
 }
 .mint-swipe-indicator.is-active {
-    background: #fff;
+    background: $color-white;
 }
 
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
+/* z-index */
 .mt-range {
     position: relative;
     display: -webkit-box;
@@ -1341,11 +1507,11 @@ display: inline-block;
             transform: translateY(-50%);
     left: 0;
     right: -30px;
-    border-top-color: #a9acb1;
+    border-top-color: #dddee1;
     border-top-style: solid
 }
 .mt-range-thumb {
-    background-color: #fff;
+    background-color: white;
     position: absolute;
     left: 0;
     top: 0;
@@ -1353,12 +1519,12 @@ display: inline-block;
     height: 30px;
     border-radius: 100%;
     cursor: move;
-    box-shadow: 0 1px 3px rgba(0,0,0,.4)
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .4)
 }
 .mt-range-progress {
     position: absolute;
     display: block;
-    background-color: #26a2ff;
+    background-color: #2d8cf0;
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -1367,7 +1533,25 @@ display: inline-block;
 .mt-range--disabled {
     opacity: 0.5
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
+/* z-index */
 .picker {
   overflow: hidden;
 }
@@ -1400,7 +1584,7 @@ display: inline-block;
   position: absolute;
   height: 1px;
   width: 100%;
-  background-color: #eaeaea;
+  background-color: #dddee1;
   display: block;
   z-index: 15;
   -webkit-transform: scaleY(0.5);
@@ -1418,7 +1602,25 @@ display: inline-block;
   right: auto;
   top: auto;
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
+/* z-index */
 .picker-slot {
   font-size: 18px;
   overflow: hidden;
@@ -1435,7 +1637,7 @@ display: inline-block;
   text-align: right;
 }
 .picker-slot.picker-slot-divider {
-  color: #000;
+  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1463,7 +1665,7 @@ display: inline-block;
   position: relative;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: #707274;
+  color: #495060;
   left: 0;
   top: 0;
   width: 100%;
@@ -1480,7 +1682,7 @@ display: inline-block;
   pointer-events: none
 }
 .picker-item.picker-selected {
-  color: #000;
+  color: black;
   -webkit-transform: translate3d(0, 0, 0) rotateX(0);
           transform: translate3d(0, 0, 0) rotateX(0);
 }
@@ -1504,7 +1706,25 @@ display: inline-block;
   -webkit-transition-timing-function: ease-out;
           transition-timing-function: ease-out
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
+/* z-index */
 .mt-progress {
     position: relative;
     display: -webkit-box;
@@ -1537,25 +1757,43 @@ display: inline-block;
     top: 50%;
     left: 0;
     right: 0;
-    background-color: #ebebeb;
+    background-color: #f8f8f9;
     height: 3px
 }
 .mt-progress-progress {
     position: absolute;
     display: block;
-    background-color: #26a2ff;
+    background-color: #2d8cf0;
     top: 50%;
     -webkit-transform: translate(0, -50%);
             transform: translate(0, -50%);
     width: 0
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
+/* z-index */
 .mint-toast {
     position: fixed;
     max-width: 80%;
     border-radius: 5px;
-    background: rgba(0, 0, 0, 0.7);
-    color: #fff;
+    background: rgba(0, 0, 0, .7);
+    color: white;
     box-sizing: border-box;
     text-align: center;
     z-index: 1000;
@@ -1593,7 +1831,25 @@ display: inline-block;
 .mint-toast-pop-enter, .mint-toast-pop-leave-active {
     opacity: 0
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
+/* z-index */
 .mint-indicator {
   -webkit-transition: opacity .2s linear;
   transition: opacity .2s linear;
@@ -1605,14 +1861,14 @@ display: inline-block;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   border-radius: 5px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, .7);
   color: white;
   box-sizing: border-box;
   text-align: center;
 }
 .mint-indicator-text {
   display: block;
-  color: #fff;
+  color: white;
   text-align: center;
   margin-top: 10px;
   font-size: 16px;
@@ -1633,14 +1889,32 @@ display: inline-block;
 .mint-indicator-enter, .mint-indicator-leave-active {
   opacity: 0;
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
+/* z-index */
 .mint-msgbox {
   position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
           transform: translate3d(-50%, -50%, 0);
-  background-color: #fff;
+  background-color: white;
   width: 85%;
   border-radius: 3px;
   font-size: 16px;
@@ -1656,7 +1930,7 @@ display: inline-block;
 }
 .mint-msgbox-content {
   padding: 10px 20px 15px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #dddee1;
   min-height: 36px;
   position: relative;
 }
@@ -1664,7 +1938,7 @@ display: inline-block;
   padding-top: 15px;
 }
 .mint-msgbox-input input {
-  border: 1px solid #dedede;
+  border: 1px solid #dddee1;
   border-radius: 5px;
   padding: 4px 5px;
   width: 100%;
@@ -1674,10 +1948,10 @@ display: inline-block;
   outline: none;
 }
 .mint-msgbox-input input.invalid {
-  border-color: #ff4949;
+  border-color: #ed3f14;
 }
 .mint-msgbox-input input.invalid:focus {
-  border-color: #ff4949;
+  border-color: #ed3f14;
 }
 .mint-msgbox-errormsg {
   color: red;
@@ -1691,10 +1965,10 @@ display: inline-block;
   margin-bottom: 0;
   font-size: 16px;
   font-weight: 700;
-  color: #333;
+  color: #1c2438;
 }
 .mint-msgbox-message {
-  color: #999;
+  color: #495060;
   margin: 0;
   text-align: center;
   line-height: 36px;
@@ -1709,7 +1983,7 @@ display: inline-block;
 .mint-msgbox-btn {
   line-height: 35px;
   display: block;
-  background-color: #fff;
+  background-color: white;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -1720,21 +1994,21 @@ display: inline-block;
   outline: none;
 }
 .mint-msgbox-btn:active {
-  background-color: #fff;
+  background-color: white;
 }
 .mint-msgbox-cancel {
   width: 50%;
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #dddee1;
 }
 .mint-msgbox-cancel:active {
-  color: #000;
+  color: black;
 }
 .mint-msgbox-confirm {
-  color: #26a2ff;
+  color: #2d8cf0;
   width: 50%;
 }
 .mint-msgbox-confirm:active {
-  color: #26a2ff;
+  color: #2d8cf0;
 }
 .msgbox-bounce-enter {
   opacity: 0;
@@ -1800,6 +2074,16 @@ display: inline-block;
 /* Navbar Component */
 /* Checklist Component */
 /* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
 /* z-index */
 .mint-datetime {
     width: 100%;
@@ -1809,7 +2093,7 @@ display: inline-block;
             backface-visibility: hidden;
 }
 .mint-datetime .picker-toolbar {
-    border-bottom: solid 1px #eaeaea;
+    border-bottom: solid 1px #dddee1;
 }
 .mint-datetime-action {
     display: inline-block;
@@ -1817,7 +2101,7 @@ display: inline-block;
     text-align: center;
     line-height: 40px;
     font-size: 16px;
-    color: #26a2ff;
+    color: #2d8cf0;
 }
 .mint-datetime-cancel {
     float: left;
@@ -1833,6 +2117,16 @@ display: inline-block;
 /* Navbar Component */
 /* Checklist Component */
 /* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
 /* z-index */
 .mint-indexlist {
     width: 100%;
@@ -1851,7 +2145,7 @@ display: inline-block;
     right: 0;
     margin: 0;
     background-color: #fff;
-    border-left: solid 1px #ddd;
+    border-left: solid 1px #e9eaec;
     text-align: center;
     max-height: 100%;
     display: -webkit-box;
@@ -1902,7 +2196,25 @@ display: inline-block;
     color: #fff;
     font-size: 22px
 }
-
+/* Cell Component */
+/* Header Component */
+/* Button Component */
+/* Tab Item Component */
+/* Tabbar Component */
+/* Navbar Component */
+/* Checklist Component */
+/* Radio Component */
+/* ActionSheet Component */
+/* TimePicker component */
+/* Picker */
+/* IndexList component */
+/* IndexSection component */
+/* MessageBox component */
+/* Progress component */
+/* Range component */
+/* Switch component */
+/* Common shadow and background colors*/
+/* z-index */
 .mint-indexsection {
     padding: 0;
     margin: 0
@@ -1910,7 +2222,7 @@ display: inline-block;
 .mint-indexsection-index {
     margin: 0;
     padding: 10px;
-    background-color: #fafafa
+    background-color: #f8f8f9
 }
 .mint-indexsection-index + ul {
     padding: 0
@@ -2006,3 +2318,11 @@ display: inline-block;
 .mintui-field-warning:before { content: "\E608"; }
 .mintui-success:before { content: "\E602"; }
 .mintui-field-success:before { content: "\E609"; }
+/**
+ * 主要用来覆盖默认样式
+ */
+
+/* 使得 cell 分隔线占 100%，无默认的 10px 缩进 */
+.mint-cell-wrapper {
+  background-origin: padding-box !important;
+}
