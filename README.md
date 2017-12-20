@@ -8,7 +8,8 @@
 > For Vue 2.x
 
 - [Homepage](https://github.com/njfed/mint-ui)
-- [Mint UI 官方文档](http://mint-ui.github.io/docs)
+- [Components Demo](https://njfed.github.io/mint-ui/)
+- 组件说明文档请参考官方 [Mint UI](http://mint-ui.github.io/docs)
 
 ## Installation
 ```shell
@@ -27,6 +28,12 @@ Vue.use(Mint);
 ```
 
 Or import specified component. (Use [babel-plugin-component](https://www.npmjs.com/package/babel-plugin-component))
+
+With this mode, the wec-mint-ui css should be imported globally:
+
+```javascript
+import wec-mint-ui/style/wec-mint-ui.css
+```
 
 ```javascript
 import { Cell, Checklist } from 'wec-mint-ui';

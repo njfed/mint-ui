@@ -6,3 +6,8 @@
 .mint-cell-wrapper {
   background-origin: padding-box !important;
 }
+
+.mint-navbar .mint-tab-item.is-selected {
+  border-bottom-width: 2px !important;
+  margin-bottom: 0px !important;
+}
