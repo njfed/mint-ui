@@ -32,7 +32,7 @@ Or import specified component. (Use [babel-plugin-component](https://www.npmjs.c
 With this mode, the wec-mint-ui css should be imported globally:
 
 ```javascript
-import wec-mint-ui/style/wec-mint-ui.css
+import 'wec-mint-ui/style/wec-mint-ui.css'
 ```
 
 ```javascript
