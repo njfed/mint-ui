@@ -1,79 +1,84 @@
-$color-blue: #26a2ff;
 $color-white: #fff;
 $color-black: #000;
-$color-grey: #d9d9d9;
-$border-color: #c8c8cd;
-$success-color: #4caf50;
-$error-color: #f44336;
-$warning-color: #ffc107;
+$color-grey: #dddee1;
+$color-blue: #2d8cf0;
+$success-color: #19be6b;
+$error-color: #ed3f14;
+$warning-color: #ff9900;
+$disabled-color: #bbbec4;
+$background-color: #f8f8f9;
+$border-color: #dddee1;
+$title-color: #1c2438;
+$value-color: #495060;
+$primary-color: $color-blue;
 
 /* Cell Component */
-$cell-value-color: #888;
+$cell-value-color: $value-color;
 
 /* Header Component */
 $header-height: 40px;
 
 /* Button Component */
-$button-default-color: #656b79;
-$button-default-background-color: #f6f8fa;
-$button-default-plain-color: #5a5a5a;
-$button-default-box-shadow: 0 0 1px #b8bbbf;
-$button-primary-color: #fff;
-$button-primary-background-color: #26a2ff;
-$button-danger-color: #fff;
-$button-danger-background-color: #ef4f4f;
+$button-default-color: $value-color;
+$button-default-background-color: $background-color;
+$button-default-plain-color: $value-color;
+$button-default-box-shadow: 0 0 1px #f8f8f9;
+$button-primary-color: $color-white;
+$button-primary-background-color: $primary-color;
+$button-danger-color: $color-white;
+$button-danger-background-color: $error-color;
 
 /* Tab Item Component */
-$tab-item-font-size: 12px;
+$tab-item-font-size: 14px;
 
 /* Tabbar Component */
-$tabbar-background-color: #fafafa;
-$tabbar-tab-item-selected-background-color: #eaeaea;
-$tabbar-tab-item-selected-color: $color-blue;
+$tabbar-background-color: $color-white;
+$tabbar-tab-item-selected-background-color: transparent;
+$tabbar-tab-item-selected-color: $primary-color;
 
 /* Navbar Component */
-$navbar-background-color: #fafafa;
+$navbar-background-color: $color-white;
 
 /* Checklist Component */
-$checklist-title-color: #888;
-$checklist-border-color: #ccc;
+$checklist-title-color: $value-color;
+$checklist-border-color: $border-color;
 
 /* Radio Component */
-$radio-title-color: #888;
-$radio-border-color: #ccc;
+$radio-title-color: $value-color;
+$radio-border-color: $border-color;
 
 /* ActionSheet Component */
-$actionsheet-background-color: #e0e0e0;
-$actionsheet-item-color: #333;
-$actionsheet-item-active-background-color: #f0f0f0;
+$actionsheet-background-color: $background-color;
+$actionsheet-item-color: $value-color;
+$actionsheet-item-active-background-color: $color-white;
 
 /* TimePicker component */
-$picker-border-color: #eaeaea;
+$picker-border-color: $border-color;
 
 /* Picker */
-$picker-slot-color: #707274;
+$picker-slot-color: $value-color;
 
 /* IndexList component */
-$indexlist-border-color: #ddd;
+$indexlist-border-color: $border-color;
 
 /* IndexSection component */
-$indexsection-background-color: #fafafa;
+$indexsection-background-color: $background-color;
 
 /* MessageBox component */
-$messagebox-title-color: #333;
-$messagebox-content-color: #999;
-$messagebox-border-color: #ddd;
-$messagebox-input-border-color: #dedede;
-$messagebox-input-invalid-border-color: #ff4949;
+$messagebox-title-color: $title-color;
+$messagebox-content-color: $value-color;
+$messagebox-border-color: $border-color;
+$messagebox-input-border-color: $border-color;
+$messagebox-input-invalid-border-color: $error-color;
 
 /* Progress component */
-$progress-background-color: #ebebeb;
+$progress-background-color: $background-color;
 
 /* Range component */
-$range-border-color: #a9acb1;
+$range-border-color: $border-color;
 
 /* Switch component */
-$switch-background-color: #fdfdfd;
+$switch-background-color: $primary-color;
 
 /* Common shadow and background colors*/
 $default-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
