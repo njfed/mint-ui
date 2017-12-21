@@ -2449,10 +2449,22 @@ display: inline-block;
   background-color: rgba(237, 63, 20, 0.20);
 }
 
+.color-success {
+  color: #19be6b;
+}
+
+.color-title {
+  color: #1c2438;
+}
+
 .color-subtitle {
   color: #80848f;
 }
 
 .color-border, .color-dim {
   color: #dddee1;
+}
+
+.color-content {
+  color: #495060;
 }
