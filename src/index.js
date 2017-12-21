@@ -36,7 +36,7 @@ import '../src/assets/font/iconfont.css';
 import '../src/style/wec-mint-ui.css';
 import merge from './utils/merge';
 
-const version = '1.0.1';
+const version = '1.0.2';
 const install = function(Vue, config = {}) {
   if (install.installed) return;
 
