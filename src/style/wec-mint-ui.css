@@ -66,10 +66,22 @@
   background-color: rgba(237, 63, 20, 0.20);
 }
 
+.color-success {
+  color: $success-color;
+}
+
+.color-title {
+  color: $title-color;
+}
+
 .color-subtitle {
   color: $sub-color;
 }
 
 .color-border, .color-dim {
   color: $border-color;
+}
+
+.color-content {
+  color: $value-color;
 }

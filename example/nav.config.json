@@ -170,6 +170,10 @@
       "path": "/textarea",
       "name": "Textarea",
       "icon": "field"
+    }, {
+      "path": "/colors",
+      "name": "Colors",
+      "icon": "badge"
     }]
   }
 ]
