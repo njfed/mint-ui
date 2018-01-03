@@ -36,7 +36,7 @@ $tab-item-font-size: 14px;
 /* Tabbar Component */
 $tabbar-background-color: $color-white;
 $tabbar-tab-item-selected-background-color: transparent;
-$tabbar-tab-item-selected-color: $value-color;
+$tabbar-tab-item-selected-color: $color-blue;
 
 /* Navbar Component */
 $navbar-background-color: $color-white;
